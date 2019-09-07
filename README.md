@@ -47,7 +47,7 @@ Recíen a mediados del 2018 esta feature comenzó a tener más [soporte](https:/
 
 ## Uso
 
-- **Named export:** Lo usamos cuando queremos indicar explícitamente qué exportamos y con qué nombre. Necesitamos usar `{}` en el `import` y llamarlo con el mismo nombre con el que fue exportado: Si el nombre no matchea con ningún `export`, va a importar el `default`
+- **Named export:** Lo usamos cuando queremos indicar explícitamente qué exportamos y con qué nombre. Necesitamos usar `{}` en el `import` y llamarlo con el mismo nombre con el que fue exportado (ó usar un _alias_). Si el nombre no matchea con ningún `export`, va a importar el `default`
 
 ```js
 export const package = {};
