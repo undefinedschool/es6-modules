@@ -22,6 +22,7 @@
 - Duplicación de código
 - Namespacing (evitar ls colisión de nombres de variables, funciones, clases, etc)
 - Dependency Tree
+- etc
 
 ## Antes de ES6 Modules
 
