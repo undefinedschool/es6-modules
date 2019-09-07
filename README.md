@@ -93,6 +93,12 @@ export { a, b, c };
 import * from './module-name.js'
 ```
 
+```js
+// Exportar todos los _named export_ a un objeto
+import * as MainComponents from "./MyComponent";
+// Usamos MainComponents.MyComponent y MainComponents.MyComponent2 por ejemplo
+```
+
 - **Absolute path:** También podemos usar _paths absolutos_ para referenciar módulos que se encuentran en otro dominio
 
 ```js
