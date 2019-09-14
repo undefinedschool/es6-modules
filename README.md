@@ -31,6 +31,10 @@
 - Más tarde fueron apareciendo diferentes soluciones de terceros (_CommonJS, AMD, UMD, Browserify, etc_) y era medio un complejo por temas de compatibilidad, etc
 - Aparecen los _package bundlers/module loaders_ que nos simplifican un poco la vida y hacen el trabajo sucio por nosotros, pero agregamos más herramientas y capas de complejidad a nuestro código
 
+## Dependencias e interfaz
+
+Llamamos **dependencias** a la funcionalidad/valores que importamos en un archivo e **interfaz** a la funcionalidad/valores que un módulo provee (exporta) al resto
+
 ## ¿Qué podemos exportar? (e importar)
 
 - variables/constantes
