@@ -110,7 +110,7 @@ import toUpperCase from 'https://git.io/fjjGt'
 ## Usando ES6 modules en el browser
 
 - Tenemos que agregar el atributo `type="module"` a nuestros tags `script` para que el browser los cargue como _ES6 Modules_
-- Ojo con el tema de [_CORS_](https://www.youtube.com/watch?v=1maCPA28eCo), necesitamos levantar los archivos en un server. Algunas opciones: [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer), [http-server](https://www.npmjs.com/package/http-server)
+- Ojo con el tema de [_CORS_](https://www.youtube.com/watch?v=JVZIhCVFJ9c), necesitamos levantar los archivos en un server. Algunas opciones: [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer), [http-server](https://www.npmjs.com/package/http-server)
 - Para browsers sin soporte, podemos definir un `script` con al atributo `nomodule` como fallback
 
 ```js
