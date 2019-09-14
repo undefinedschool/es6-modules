@@ -17,8 +17,8 @@
 ### Otros problemas que resuelven los módulos
 
 - Duplicación de código
-- Namespacing (evitar ls colisión de nombres de variables, funciones, clases, etc)
-- Dependency Tree
+- Namespacing (evitar la colisión de nombres de variables, funciones, clases, etc)
+- Dependency Tree (cargar las dependencias necesarias, en el orden correcto)
 - etc
 
 ## Antes de ES6 Modules
@@ -33,7 +33,8 @@
 
 ## Dependencias e interfaz
 
-Llamamos **dependencias** a la funcionalidad/valores que importamos en un archivo e **interfaz** a la funcionalidad/valores que un módulo provee (exporta) al resto
+- Llamamos **dependencias** a la funcionalidad/valores que importamos en un archivo. Cuando un _módulo_ importa funcionalidad de otro módulo, decimos que _depende_ o _tiene como dependencia_ a ese otro módulo
+- Llamamos **interfaz** a la funcionalidad/valores que un módulo provee (exporta) al resto. Un módulo sólo puede importar funcionalidad que forme parte de la _interfaz_ de otor módulo. Todo lo que no se exporta es _privado_ dentro de un módulo y no puede ser usado fuera del mismo
 
 ## ¿Qué podemos exportar? (e importar)
 
