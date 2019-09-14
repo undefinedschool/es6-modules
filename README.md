@@ -10,9 +10,6 @@
 ## Motivación (o sea... ¿por qué usarlos?)
 
 - **Para organizar mejor nuestro código.**
-
-![](https://i.ytimg.com/vi/0FHEeG_uq5Y/maxresdefault.jpg)
-
 - Igual, si, **código más organizado => código más legible, simple, conciso, más fácil de razonar => más mantenible** ✨
 
 ![](https://media.makeameme.org/created/clean-code-clean.jpg)
