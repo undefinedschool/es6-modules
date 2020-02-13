@@ -144,4 +144,6 @@ import { something } from './moduleName';
 import { something } from './moduleName.js';
 ```
 
-- [Cheatsheet](https://gist.github.com/samueljseay/bd133cbd1cb213b37f7f573351dcccea)
+[![JavaScript Modules in 100 Seconds](https://img.youtube.com/vi/qgRUr-YUk1Q/0.jpg)](https://www.youtube.com/watch?v=qgRUr-YUk1Q)
+
+- [Cheatsheet](https://www.samanthaming.com/tidbits/79-module-cheatsheet/)
