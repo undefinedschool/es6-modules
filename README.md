@@ -42,6 +42,7 @@
 </div>
 
 👉 Ver [todas las notas](https://github.com/undefinedschool/notes)
+
 ---
 
 ## ¿Para qué sirven?
